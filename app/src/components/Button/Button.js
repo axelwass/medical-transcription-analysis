@@ -27,7 +27,7 @@ export default function Button({
   inverted = false,
   link,
   onClick = null,
-  palette = 'orange',
+  palette = 'blue',
   simple = false,
   ...otherProps
 }) {

@@ -13,6 +13,15 @@
   transform: translateY(-75px);
 }
 
+.logo{
+  background-image: url(../img/logo-header.jpeg);
+  background-size: contain;
+  width: 200px;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+}
+
+
 .visible {
   opacity: 1;
   transform: translateY(0);
@@ -69,7 +78,7 @@
   padding: 0.5em 1em;
   font-size: medium;
   margin-left: 0.5em;
-  background: #ff9900;
+  background: #E23398;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   color: white;
 }
@@ -80,7 +89,19 @@
   padding: 0.5em 1em;
   font-size: medium;
   margin-left: 0.5em;
-  background: #ff9900;
+  background: #E23398;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+
+.feedback button{
+  position: relative;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  font-size: medium;
+  margin-left: 0.5em;
+  background: #03C4CB;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   color: white;
 }

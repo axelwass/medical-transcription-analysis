@@ -31,9 +31,13 @@
   }
 }
 
+button .SaveButton {
+  background-color: #E23398;
+}
+
 .SaveButton2,
 .SaveButton3 {
-  background-color: #ff9900;
+  background-color: #E23398;
   padding: 10px 20px;
   line-height: 1.25rem;
   display: inline-block;
@@ -76,7 +80,7 @@
   flex-direction: row-reverse;
 }
 .CreateSessionFlow button {
-  background-color: #ff9900;
+  background-color: #E23398;
   border: none;
   display: inline-block;
   align-items: center;

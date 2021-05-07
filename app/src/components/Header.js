@@ -34,9 +34,9 @@ export default function Header({
     <>
       <header className={cs(s.base, s.visible)}>
         <div className={s.left}>
-          <Heading as='h2' size='md'>
-            <Link onClick={onHome}>Medical Transcription Analysis</Link>
-          </Heading>
+            <Link onClick={onHome}>
+                <div className={s.logo} />
+            </Link>
         </div>
         <div className={s.right}>
           {stage !== STAGE_SEARCH_EXPORT && stage !== STAGE_SEARCH && (
@@ -74,6 +74,12 @@ export default function Header({
               Logout
             </Link>
           )}
+        </div>
+        <div className={s.feedback}>
+            <button onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSeQgK4T9B9wyzb8MrtS6wbIVB4pWIA9Ipr3r1wp1HKFCBvdwA/viewform", "_blank")}>
+              <span />
+              Give Feedback
+            </button>
         </div>
       </header>
     </>
